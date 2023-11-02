@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+.list-reset {
+   list-style: none; 
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 30px 0;
+    background-color: #FF3DFE;
+}
+
+.main {
+    height: 100%;
+    margin: 0 auto;
+    padding: 32px 0;
+    background: linear-gradient(164deg, #B4F6FF 0%, #CA58FF 57.93%, #5253FF 100%);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: stretch;
+    column-gap: 24px;
+    font-family: "Press Start 2P", sans-serif;
+    color: #121723;
+    font-size: 14px;
+}
+
+.card {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 0 0 33.3%;
+    max-width: 354px;
+}
+
+.card__image {
+    height: 254px;
+}
+
+.card__descr {
+    padding: 32px 24px;
+}
+
+.card__descr--1 {
+    background-color: #24FF00;
+}
+
+.card__descr--2 {
+    background-color: #FFED00;
+}
+
+.card__descr--3 {
+    background-color: #FFF;
+}
+
+.link-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 0;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #000;
+}

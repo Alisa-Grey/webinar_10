@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url('../font/PressStart2P-Regular.ttf');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 48px;
+    background-color: #FAFF00;
+    font-family: 'Inter', sans-serif;
+    color: #121723;
+}
+
+.meme {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.meme__heading {
+    font-family: "Press Start 2P", sans-serif;
+    margin-bottom: 16px;
+}
+
+.meme__subheading {
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.meme__descr {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 32px;
+}
+
+.details-2-cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 0 40%;
+    width: 40%;
+    font-size: 14px;
+    row-gap: 16px;
+}
+
+.details-2-cols__text {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.details {
+    width: 50%;
+    font-size: 17px;
+}
+
+.details__text:not(:last-child) {
+    margin-bottom: 16px;
+}
